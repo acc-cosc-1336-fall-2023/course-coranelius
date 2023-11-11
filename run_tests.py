@@ -3,9 +3,9 @@ import unittest
 
 '''
 
-from tests.homework.g_lists_and_tuples import tests_lists_and_tuples
+from tests.homework.j_classes import tests_classes
 
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_lists_and_tuples)
+suite = unittest.TestLoader().loadTestsFromModule(tests_classes)
 unittest.TextTestRunner(verbosity=2).run(suite) 
 
